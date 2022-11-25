@@ -79,6 +79,11 @@ const routes = [
     path: '/event/key',
     name: 'EventKeyView',
     component: () => import(/* webpackChunkName: "databinding", webpackPrefetch:true */ '../views/2_event/EventKeyView.vue')
+  },
+  {
+    path: '/chat',
+    name: 'ChatSysView',
+    component: () => import(/* webpackChunkName: "databinding", webpackPrefetch:true */ '../views/3_chat/ChatSysView.vue')
   }
 
 ]

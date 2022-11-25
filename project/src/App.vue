@@ -4,6 +4,7 @@
     <router-link to="/about">About</router-link> |
     <router-link to="/databinding/string">String</router-link> |
     <router-link to="/databinding/html">Html</router-link>
+    <router-link to="/chat">Chat</router-link>
   </nav>
   <router-view/>
 </template>
